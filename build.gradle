@@ -20,6 +20,7 @@ dependencies {
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation files("libs/html2image-0.9.jar")
+	implementation files('libs/flying-saucer-core-9.1.22.jar')
 }
 
 tasks.named('test') {
